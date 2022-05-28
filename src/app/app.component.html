@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<input [(ngModel)]="input" />
+<button (click)="onAdd()">Add</button>
+
+<p>List:</p>
+<ul *ngFor="let item of list">
+  <li>{{ item }}</li>
+</ul>
